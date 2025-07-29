@@ -7,13 +7,21 @@
 
   .card {
     position: relative;
-    &::before{
-      content: "";
+    &::before {
+      content: '';
       top: 50%;
       inset: 0;
-      background:linear-gradient(180deg, transparent 0%, black 100%);
+      background: linear-gradient(180deg, transparent 0%, black 100%);
       position: absolute;
     }
-  }
+    figcaption {
+      position: absolute;
+      bottom: 0;
+      padding: 24px;
 
+      h2 {
+        margin-top: 8px;
+      }
+    }
+  }
 }
