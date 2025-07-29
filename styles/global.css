@@ -1,69 +1,70 @@
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "Archivo";
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: 'Archivo';
 }
 
 :root {
-  --brand-color-light: #60A5FA;
-  --brand-color-dark: #1D4ED8;
-  --bg-color: #0F172A;
-  --stroke-color: #1E293B;
-  --text-primary-color: #f1f5f9;
-  --text-color-secondary: #CBD5E1;
+   --brand-color-light: #60a5fa;
+   --brand-color-dark: #1d4ed8;
+   --bg-color: #0f172a;
+   --stroke-color: #1e293b;
+   --text-primary-color: #f1f5f9;
+   --text-color-secondary: #cbd5e1;
 
-  --font-family: "Archivo", sans-serif;
-  --h1:  800 24px/135% var(--font-family);
-  --h2: 800 16px/140% var(--font-family);
-  --h3:  800 14px/140% var(--font-family);
-  --text-span: 600 14px/145% var(--font-family);
-  --text: 400 14px/160% var(--font-family);
-  --text-sm: 400 14px/140% var(--font-family);
+   --font-family: 'Archivo', sans-serif;
+   --h1: 800 24px/135% var(--font-family);
+   --h2: 800 16px/140% var(--font-family);
+   --h3: 800 14px/140% var(--font-family);
+   --text-span: 600 14px/145% var(--font-family);
+   --text: 400 14px/160% var(--font-family);
+   --text-sm: 400 14px/140% var(--font-family);
 }
 
 body {
-  color: var(--text-primary-color);
-  background-color: var(--bg-color);
+   color: var(--text-primary-color);
+   background-color: var(--bg-color);
 }
 
 a {
-  color: inherit;
-  text-decoration: none;
+   color: inherit;
+   text-decoration: none;
 }
 
 a:hover {
-  color: var(--brand-color-light);
+   color: var(--brand-color-light);
 }
 
-h1, h2, h2 {
-  font: inherit;
+h1,
+h2,
+h2 {
+   font: inherit;
 }
-
 
 img {
-  max-width: 100%;
+   max-width: 100%;
 }
 
 main {
-  margin-top: 40px;
-  gap: 80px;
+   margin-top: 40px;
+   gap: 80px;
 }
 
 .container {
-  max-width: 1280px;
-  padding-inline: 32px;
-  margin-inline: auto;
+   max-width: 1280px;
+   padding-inline: 32px;
+   margin-inline: auto;
 }
 
 .content-tag {
-  display: inline-block;
-  background-color: var(--brand-color-dark);
-  padding: 4px 8px;
-  border-radius: 4px;
-  font: 500 10px/1.2 var(--font-family);
-  text-transform: uppercase;
-  letter-spacing: 0.04em;
-  color: var(--text-primary-color);
-  box-shadow: 0px 4px 16px rgba(2, 6, 23, 0.251);
+   display: inline-block;
+   background-color: var(--brand-color-dark);
+   padding: 4px 8px;
+   border-radius: 4px;
+   font: 500 10px/1.2 var(--font-family);
+   text-transform: uppercase;
+   letter-spacing: 0.04em;
+   color: var(--text-primary-color);
+   box-shadow: 0px 4px 16px rgba(2, 6, 23, 0.251);
 }
